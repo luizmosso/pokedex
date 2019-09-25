@@ -61,8 +61,8 @@ export default class PokemonModel {
             const type = secretPokemon.types[0].type.name
             const ability = secretPokemon.abilities[0].ability.name
             const hintsList = [
-                `Este Pokemon é do tipo "${type}"`,
-                `Em batalha, uma das principais habilidades deste pokemon é  o "${ability}"`
+                `This Pokemon is from the type "${type}"`,
+                `In battle, one of the pokemon's main abilities is "${ability}"`
             ]
             const image = secretPokemon.sprites.front_default
             return { id, name, type, ability, hintsList, image, choicesList }
